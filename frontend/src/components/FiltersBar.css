@@ -1,0 +1,40 @@
+.cad-filters {
+  padding: 14px;
+}
+
+.cad-filters__title {
+  font-weight: 950;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+
+.cad-filters__grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.cad-filters__actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.cad-filters__btn {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 12px;
+}
+
+@media (max-width: 860px) {
+  .cad-filters__grid {
+    grid-template-columns: 1fr;
+  }
+  .cad-filters__actions {
+    justify-content: stretch;
+  }
+  .cad-filters__actions button {
+    flex: 1;
+  }
+}

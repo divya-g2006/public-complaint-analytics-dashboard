@@ -1,0 +1,238 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "district": "Chennai" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.9907, 12.8627], [80.5507, 12.8627], [80.5507, 13.3027], [79.9907, 13.3027], [79.9907, 12.8627]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Coimbatore" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[76.6758, 10.7968], [77.2358, 10.7968], [77.2358, 11.2368], [76.6758, 11.2368], [76.6758, 10.7968]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Madurai" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.8398, 9.7052], [78.3998, 9.7052], [78.3998, 10.1452], [77.8398, 10.1452], [77.8398, 9.7052]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Tiruchirappalli" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.4247, 10.5705], [78.9847, 10.5705], [78.9847, 11.0105], [78.4247, 11.0105], [78.4247, 10.5705]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Salem" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.866, 11.4443], [78.426, 11.4443], [78.426, 11.8843], [77.866, 11.8843], [77.866, 11.4443]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Tirunelveli" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.4767, 8.4939], [78.0367, 8.4939], [78.0367, 8.9339], [77.4767, 8.9339], [77.4767, 8.4939]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Erode" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.4372, 11.121], [77.9972, 11.121], [77.9972, 11.561], [77.4372, 11.561], [77.4372, 11.121]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Vellore" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.8525, 12.6965], [79.4125, 12.6965], [79.4125, 13.1365], [78.8525, 13.1365], [78.8525, 12.6965]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Thanjavur" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.8578, 10.5669], [79.4178, 10.5669], [79.4178, 11.0069], [78.8578, 11.0069], [78.8578, 10.5669]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Dindigul" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.6895, 10.1424], [78.2495, 10.1424], [78.2495, 10.5824], [77.6895, 10.5824], [77.6895, 10.1424]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Cuddalore" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.488, 11.5247], [80.048, 11.5247], [80.048, 11.9647], [79.488, 11.9647], [79.488, 11.5247]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Kanchipuram" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.4236, 12.6142], [79.9836, 12.6142], [79.9836, 13.0542], [79.4236, 13.0542], [79.4236, 12.6142]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Tiruppur" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.0611, 10.8885], [77.6211, 10.8885], [77.6211, 11.3285], [77.0611, 11.3285], [77.0611, 10.8885]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Karur" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.7966, 10.7401], [78.3566, 10.7401], [78.3566, 11.1801], [77.7966, 11.1801], [77.7966, 10.7401]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Namakkal" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.8874, 10.9994], [78.4474, 10.9994], [78.4474, 11.4394], [77.8874, 11.4394], [77.8874, 10.9994]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Virudhunagar" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.6824, 9.348], [78.2424, 9.348], [78.2424, 9.788], [77.6824, 9.788], [77.6824, 9.348]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Sivagangai" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.203, 9.6233], [78.763, 9.6233], [78.763, 10.0633], [78.203, 10.0633], [78.203, 9.6233]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Ramanathapuram" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.5502, 9.1516], [79.1102, 9.1516], [79.1102, 9.5916], [78.5502, 9.5916], [78.5502, 9.1516]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Thoothukudi" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.8548, 8.5442], [78.4148, 8.5442], [78.4148, 8.9842], [77.8548, 8.9842], [77.8548, 8.5442]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Nilgiris" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[76.4132, 11.1864], [76.9732, 11.1864], [76.9732, 11.6264], [76.4132, 11.6264], [76.4132, 11.1864]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Krishnagiri" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.9341, 12.3066], [78.4941, 12.3066], [78.4941, 12.7466], [77.9341, 12.7466], [77.9341, 12.3066]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Dharmapuri" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.8782, 11.9011], [78.4382, 11.9011], [78.4382, 12.3411], [77.8782, 12.3411], [77.8782, 11.9011]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Ariyalur" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.7956, 10.9201], [79.3556, 10.9201], [79.3556, 11.3601], [78.7956, 11.3601], [78.7956, 10.9201]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Perambalur" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.6031, 11.0152], [79.1631, 11.0152], [79.1631, 11.4552], [78.6031, 11.4552], [78.6031, 11.0152]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Tenkasi" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.0352, 8.7409], [77.5952, 8.7409], [77.5952, 9.1809], [77.0352, 9.1809], [77.0352, 8.7409]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Nagapattinam" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.5624, 10.5456], [80.1224, 10.5456], [80.1224, 10.9856], [79.5624, 10.9856], [79.5624, 10.5456]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Mayiladuthurai" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.373, 10.881], [79.933, 10.881], [79.933, 11.321], [79.373, 11.321], [79.373, 10.881]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Tiruvallur" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.6289, 12.9239], [80.1889, 12.9239], [80.1889, 13.3639], [79.6289, 13.3639], [79.6289, 12.9239]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "district": "Tiruvannamalai" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.7947, 12.0053], [79.3547, 12.0053], [79.3547, 12.4453], [78.7947, 12.4453], [78.7947, 12.0053]]]
+      }
+    }
+  ]
+}
+

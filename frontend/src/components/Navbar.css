@@ -1,0 +1,105 @@
+.cad-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--gov-line);
+}
+
+.cad-navbar__left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.cad-navbar__brand {
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--gov-ink);
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cad-navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cad-navbar__user {
+  text-align: right;
+  line-height: 1.05;
+}
+
+.cad-navbar__name {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.cad-navbar__role {
+  font-size: 12px;
+  color: var(--gov-gray);
+}
+
+.cad-navbar__burger {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid var(--gov-line);
+  background: white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.cad-navbar__burger span {
+  width: 16px;
+  height: 2px;
+  background: var(--gov-ink);
+  display: block;
+}
+
+.cad-btn {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1px solid var(--gov-line);
+  background: white;
+  font-weight: 600;
+}
+
+.cad-btn--primary {
+  border-color: rgba(11, 92, 171, 0.3);
+  background: linear-gradient(180deg, rgba(11, 92, 171, 0.95), rgba(11, 92, 171, 0.86));
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cad-btn--ghost {
+  background: transparent;
+}
+
+.cad-btn--home {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .cad-navbar__burger {
+    display: inline-flex;
+  }
+}

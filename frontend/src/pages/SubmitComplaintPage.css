@@ -1,0 +1,73 @@
+.cad-page__head {
+  margin-bottom: 12px;
+}
+
+.cad-page__title {
+  font-size: 24px;
+  font-weight: 950;
+  letter-spacing: -0.4px;
+}
+
+.cad-page__sub {
+  margin-top: 6px;
+  color: var(--gov-gray);
+  font-size: 13px;
+}
+
+.cad-formCard {
+  padding: 14px;
+}
+
+.cad-gridForm {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.cad-field--full {
+  grid-column: 1 / -1;
+}
+
+.cad-textarea {
+  margin-top: 6px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--gov-line);
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.95);
+  outline: none;
+  resize: vertical;
+}
+
+.cad-textarea:focus {
+  border-color: rgba(11, 92, 171, 0.45);
+  box-shadow: 0 0 0 4px rgba(11, 92, 171, 0.12);
+}
+
+.cad-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cad-file {
+  padding-top: 10px;
+}
+
+.cad-field__hint {
+  margin-top: 6px;
+  color: var(--gov-gray);
+  font-size: 12px;
+}
+
+.cad-addr {
+  color: var(--gov-ink);
+  font-weight: 800;
+}
+
+@media (max-width: 860px) {
+  .cad-gridForm {
+    grid-template-columns: 1fr;
+  }
+}

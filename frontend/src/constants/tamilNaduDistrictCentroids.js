@@ -1,0 +1,33 @@
+// Approximate district centroids for Tamil Nadu (used for map fallback when lat/lng are missing).
+export const TN_DISTRICT_CENTROIDS = {
+  Chennai: { lat: 13.0827, lng: 80.2707 },
+  Coimbatore: { lat: 11.0168, lng: 76.9558 },
+  Madurai: { lat: 9.9252, lng: 78.1198 },
+  Tiruchirappalli: { lat: 10.7905, lng: 78.7047 },
+  Salem: { lat: 11.6643, lng: 78.146 },
+  Tirunelveli: { lat: 8.7139, lng: 77.7567 },
+  Erode: { lat: 11.341, lng: 77.7172 },
+  Vellore: { lat: 12.9165, lng: 79.1325 },
+  Thanjavur: { lat: 10.7869, lng: 79.1378 },
+  Dindigul: { lat: 10.3624, lng: 77.9695 },
+  Cuddalore: { lat: 11.7447, lng: 79.768 },
+  Kanchipuram: { lat: 12.8342, lng: 79.7036 },
+  Tiruppur: { lat: 11.1085, lng: 77.3411 },
+  Karur: { lat: 10.9601, lng: 78.0766 },
+  Namakkal: { lat: 11.2194, lng: 78.1674 },
+  Virudhunagar: { lat: 9.568, lng: 77.9624 },
+  Sivagangai: { lat: 9.8433, lng: 78.483 },
+  Ramanathapuram: { lat: 9.3716, lng: 78.8302 },
+  Thoothukudi: { lat: 8.7642, lng: 78.1348 },
+  Nilgiris: { lat: 11.4064, lng: 76.6932 },
+  Krishnagiri: { lat: 12.5266, lng: 78.2141 },
+  Dharmapuri: { lat: 12.1211, lng: 78.1582 },
+  Ariyalur: { lat: 11.1401, lng: 79.0756 },
+  Perambalur: { lat: 11.2352, lng: 78.8831 },
+  Tenkasi: { lat: 8.9609, lng: 77.3152 },
+  Nagapattinam: { lat: 10.7656, lng: 79.8424 },
+  Mayiladuthurai: { lat: 11.101, lng: 79.653 },
+  Tiruvallur: { lat: 13.1439, lng: 79.9089 },
+  Tiruvannamalai: { lat: 12.2253, lng: 79.0747 }
+};
+

@@ -1,0 +1,28 @@
+.tncm {
+  width: 100%;
+}
+
+.tncm__map {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: radial-gradient(900px 480px at 20% 10%, rgba(11, 92, 171, 0.10), transparent 55%),
+    radial-gradient(800px 440px at 90% 30%, rgba(107, 114, 128, 0.10), transparent 58%), rgba(247, 249, 252, 1);
+}
+
+.tncm__popupTitle {
+  font-weight: 950;
+  letter-spacing: -0.15px;
+}
+
+.tncm__popupRow {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.tncm__k {
+  font-weight: 900;
+  color: rgba(17, 24, 39, 0.9);
+}
+

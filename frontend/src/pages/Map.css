@@ -1,0 +1,108 @@
+.cad-tnmap__head {
+  margin-bottom: 12px;
+}
+
+.cad-tnmap__title {
+  font-size: 26px;
+  font-weight: 950;
+  letter-spacing: -0.4px;
+}
+
+.cad-tnmap__sub {
+  margin-top: 6px;
+  color: var(--gov-gray);
+  font-size: 13px;
+}
+
+.cad-tnmap__wrap {
+  padding: 10px;
+  position: relative;
+}
+
+.cad-tnmap__leaflet {
+  height: 560px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: radial-gradient(900px 480px at 20% 10%, rgba(11, 92, 171, 0.10), transparent 55%),
+    radial-gradient(800px 440px at 90% 30%, rgba(107, 114, 128, 0.10), transparent 58%), rgba(247, 249, 252, 1);
+}
+
+.cad-tnmap__legend {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  padding: 12px 12px;
+  width: 240px;
+  border: 1px solid rgba(229, 231, 235, 0.95);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+}
+
+.cad-tnmap__legendTitle {
+  font-weight: 950;
+  letter-spacing: -0.15px;
+  margin-bottom: 10px;
+}
+
+.cad-tnmap__legendRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--gov-gray);
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+.cad-tnmap__swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 4px;
+  border: 1px solid rgba(17, 24, 39, 0.25);
+  display: inline-block;
+}
+
+.cad-tnmap__swatch.is-good {
+  background: rgba(34, 197, 94, 0.75);
+}
+
+.cad-tnmap__swatch.is-mid {
+  background: rgba(245, 158, 11, 0.78);
+}
+
+.cad-tnmap__swatch.is-poor {
+  background: rgba(239, 68, 68, 0.72);
+}
+
+.cad-tnmap-tip__t {
+  font-weight: 950;
+  letter-spacing: -0.1px;
+  margin-bottom: 6px;
+}
+
+.cad-tnmap-tip__r {
+  font-size: 12px;
+  color: rgba(55, 65, 81, 0.95);
+  margin-top: 3px;
+}
+
+.cad-tnmap__popupTitle {
+  font-weight: 950;
+  letter-spacing: -0.15px;
+}
+
+.cad-tnmap__popupRow {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+  .cad-tnmap__leaflet {
+    height: 480px;
+  }
+
+  .cad-tnmap__legend {
+    right: 12px;
+    bottom: 12px;
+    width: 220px;
+  }
+}

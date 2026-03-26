@@ -1,0 +1,155 @@
+.cad-adminFilters {
+  margin-top: 12px;
+}
+
+.cad-adminHeadActions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cad-adminHeadActions__link {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.cad-adminHeadActions__linkAlt {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.cad-tableWrap {
+  margin-top: 12px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.cad-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 1580px;
+}
+
+.cad-table th {
+  text-align: left;
+  padding: 10px 10px;
+  font-size: 12px;
+  color: var(--gov-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid var(--gov-line);
+  white-space: nowrap;
+}
+
+.cad-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid rgba(229, 231, 235, 0.7);
+  vertical-align: top;
+  font-size: 13px;
+}
+
+.cad-tdTitle__t {
+  font-weight: 950;
+  letter-spacing: -0.15px;
+}
+
+.cad-tdTitle__d {
+  margin-top: 6px;
+  color: var(--gov-gray);
+  max-width: 420px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cad-tdLoc {
+  color: var(--gov-ink);
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cad-tdRating {
+  white-space: nowrap;
+  font-weight: 850;
+}
+
+.cad-tdFeedback {
+  color: var(--gov-gray);
+  max-width: 260px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.cad-tdName {
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cad-tdPhone {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.cad-statusCell {
+  display: grid;
+  gap: 8px;
+}
+
+.cad-selectSm {
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--gov-line);
+  background: white;
+  padding: 0 10px;
+  font-weight: 750;
+}
+
+.cad-userCell__n {
+  font-weight: 900;
+}
+
+.cad-userCell__e {
+  margin-top: 4px;
+  color: var(--gov-gray);
+  font-size: 12px;
+}
+
+.cad-nowrap {
+  white-space: nowrap;
+}
+
+.cad-btnDanger {
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.08);
+  font-weight: 900;
+}
+
+.cad-btnDanger:disabled {
+  opacity: 0.65;
+}
+
+.cad-emptyCell {
+  text-align: center;
+  color: var(--gov-gray);
+  padding: 26px 10px;
+}

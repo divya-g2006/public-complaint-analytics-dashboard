@@ -1,0 +1,57 @@
+.cad-confirm {
+  padding: 14px;
+  border: 1px solid rgba(229, 231, 235, 0.9);
+}
+
+.cad-confirm__title {
+  font-weight: 950;
+  letter-spacing: -0.15px;
+}
+
+.cad-confirm__sub {
+  margin-top: 6px;
+  color: var(--gov-gray);
+  font-size: 13px;
+}
+
+.cad-confirm__err {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.06);
+  color: rgba(127, 29, 29, 1);
+  font-weight: 750;
+  font-size: 13px;
+}
+
+.cad-confirm__actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.cad-confirm__btn {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 12px;
+  font-weight: 950;
+  border: 1px solid var(--gov-line);
+  background: white;
+}
+
+.cad-confirm__btn.is-yes {
+  border-color: rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.10);
+}
+
+.cad-confirm__btn.is-no {
+  border-color: rgba(245, 158, 11, 0.35);
+  background: rgba(245, 158, 11, 0.10);
+}
+
+.cad-confirm__btn:disabled {
+  opacity: 0.75;
+}
+

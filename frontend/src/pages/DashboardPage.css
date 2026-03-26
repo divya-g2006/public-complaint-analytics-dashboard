@@ -1,0 +1,142 @@
+.cad-dash__head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cad-dash__title {
+  font-size: 26px;
+  font-weight: 950;
+  letter-spacing: -0.4px;
+}
+
+.cad-dash__sub {
+  margin-top: 6px;
+  color: var(--gov-gray);
+  font-size: 13px;
+}
+
+.cad-dash__filters {
+  margin-top: 12px;
+}
+
+.cad-dash__grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.cad-stat {
+  padding: 14px;
+}
+
+.cad-stat__k {
+  font-size: 12px;
+  color: var(--gov-gray);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.cad-stat__v {
+  margin-top: 10px;
+  font-size: 34px;
+  font-weight: 950;
+  letter-spacing: -0.8px;
+}
+
+.cad-stat__note {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--gov-gray);
+}
+
+.cad-panels {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+.cad-panel {
+  padding: 14px;
+}
+
+.cad-panel__title {
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+
+.cad-bars {
+  display: grid;
+  gap: 10px;
+}
+
+.cad-bar__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.cad-bar__label {
+  font-weight: 750;
+}
+
+.cad-bar__value {
+  color: var(--gov-gray);
+  font-weight: 850;
+}
+
+.cad-bar__track {
+  margin-top: 6px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(107, 114, 128, 0.15);
+  overflow: hidden;
+}
+
+.cad-bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, rgba(11, 92, 171, 0.95), rgba(11, 92, 171, 0.55));
+  border-radius: 999px;
+}
+
+.cad-recent {
+  margin-top: 14px;
+}
+
+.cad-recent__title {
+  font-weight: 950;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+
+.cad-recent__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.cad-empty {
+  padding: 14px;
+  color: var(--gov-gray);
+}
+
+@media (max-width: 1024px) {
+  .cad-dash__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cad-panels {
+    grid-template-columns: 1fr;
+  }
+
+  .cad-recent__list {
+    grid-template-columns: 1fr;
+  }
+}

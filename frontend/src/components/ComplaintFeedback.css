@@ -1,0 +1,104 @@
+.cad-feedback {
+  padding: 14px;
+  border: 1px solid rgba(229, 231, 235, 0.9);
+}
+
+.cad-feedback__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.cad-feedback__title {
+  font-weight: 950;
+  letter-spacing: -0.2px;
+}
+
+.cad-feedback__meta {
+  color: var(--gov-gray);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.cad-feedback__form {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+}
+
+.cad-feedback__label {
+  display: grid;
+  gap: 6px;
+  font-weight: 850;
+  font-size: 13px;
+}
+
+.cad-feedback__select,
+.cad-feedback__textarea {
+  width: 100%;
+  border: 1px solid var(--gov-line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-weight: 650;
+  background: white;
+}
+
+.cad-feedback__textarea {
+  resize: vertical;
+}
+
+.cad-feedback__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cad-feedback__btn {
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 12px;
+  background: var(--gov-blue);
+  color: white;
+  font-weight: 950;
+}
+
+.cad-feedback__btn:disabled {
+  opacity: 0.7;
+}
+
+.cad-feedback__msg {
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-weight: 750;
+  font-size: 13px;
+}
+
+.cad-feedback__msg--error {
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.06);
+  color: rgba(127, 29, 29, 1);
+}
+
+.cad-feedback__msg--success {
+  border: 1px solid rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.08);
+  color: rgba(20, 83, 45, 1);
+}
+
+.cad-feedback__submitted {
+  margin-top: 10px;
+  display: grid;
+  gap: 8px;
+  color: var(--gov-ink);
+  font-size: 13px;
+}
+
+.cad-feedback__submittedText {
+  color: var(--gov-gray);
+}
+
+.cad-feedback__k {
+  color: var(--gov-ink);
+  font-weight: 950;
+}
+

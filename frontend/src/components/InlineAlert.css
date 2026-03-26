@@ -1,0 +1,31 @@
+.cad-alert {
+  border-radius: 12px;
+  border: 1px solid var(--gov-line);
+  background: rgba(255, 255, 255, 0.92);
+  padding: 12px 12px;
+}
+
+.cad-alert__title {
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.cad-alert__message {
+  color: var(--gov-ink);
+}
+
+.cad-alert--error {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.cad-alert--success {
+  border-color: rgba(34, 197, 94, 0.35);
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.cad-alert--info {
+  border-color: rgba(11, 92, 171, 0.25);
+  background: rgba(11, 92, 171, 0.07);
+}
+

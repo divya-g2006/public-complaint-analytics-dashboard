@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/>
+      <stop offset="1" stop-color="#eaf2ff"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2937" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#0b1f33" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="lane" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f9fafb" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f9fafb" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#f9fafb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="210" cy="170" r="210" fill="#0b5cab" opacity="0.12"/>
+  <circle cx="1020" cy="140" r="260" fill="#6b7280" opacity="0.10"/>
+
+  <!-- Road -->
+  <path d="M170 720 L 450 310 Q 600 220 750 310 L 1030 720 Z" fill="url(#road)"/>
+  <path d="M590 670 L 610 670 L 640 610 L 560 610 Z" fill="#0b5cab" opacity="0.12"/>
+
+  <!-- Lane markings -->
+  <rect x="585" y="330" width="30" height="300" fill="url(#lane)" opacity="0.9"/>
+  <rect x="590" y="330" width="20" height="60" fill="#f9fafb" opacity="0.9"/>
+  <rect x="590" y="420" width="20" height="70" fill="#f9fafb" opacity="0.85"/>
+  <rect x="590" y="525" width="20" height="75" fill="#f9fafb" opacity="0.8"/>
+
+  <!-- Potholes -->
+  <g fill="#0b1f33" opacity="0.55">
+    <ellipse cx="470" cy="520" rx="54" ry="22"/>
+    <ellipse cx="735" cy="540" rx="62" ry="26"/>
+    <ellipse cx="610" cy="470" rx="40" ry="18"/>
+  </g>
+  <g fill="none" stroke="#6b7280" opacity="0.5" stroke-width="4">
+    <path d="M430 520 C 450 495, 490 495, 510 520"/>
+    <path d="M690 540 C 715 510, 760 510, 790 540"/>
+    <path d="M585 470 C 600 452, 625 452, 640 470"/>
+  </g>
+
+  <!-- Government accent card -->
+  <g transform="translate(90,440)">
+    <rect width="360" height="170" rx="18" fill="#ffffff" opacity="0.90" stroke="#e5e7eb" stroke-width="3"/>
+    <rect x="18" y="18" width="210" height="16" rx="8" fill="#0b1f33" opacity="0.28"/>
+    <rect x="18" y="46" width="300" height="12" rx="6" fill="#6b7280" opacity="0.18"/>
+    <rect x="18" y="68" width="250" height="12" rx="6" fill="#6b7280" opacity="0.14"/>
+    <rect x="18" y="108" width="160" height="42" rx="14" fill="#0b5cab" opacity="0.88"/>
+  </g>
+</svg>

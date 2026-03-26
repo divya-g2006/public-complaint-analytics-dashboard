@@ -1,0 +1,33 @@
+.cad-nf {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+}
+
+.cad-nf__card {
+  width: 620px;
+  max-width: 100%;
+  padding: 18px;
+  text-align: center;
+}
+
+.cad-nf__title {
+  font-size: 26px;
+  font-weight: 950;
+  letter-spacing: -0.4px;
+}
+
+.cad-nf__sub {
+  margin-top: 8px;
+  color: var(--gov-gray);
+}
+
+.cad-nf__btn {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+

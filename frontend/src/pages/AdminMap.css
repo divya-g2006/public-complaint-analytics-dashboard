@@ -1,0 +1,144 @@
+.cad-map__head {
+  margin-bottom: 12px;
+}
+
+.cad-map__controls {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 12px;
+  align-items: start;
+}
+
+.cad-map__toggles {
+  padding: 14px;
+}
+
+.cad-map__togTitle {
+  font-weight: 950;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+
+.cad-map__toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 750;
+  color: var(--gov-ink);
+}
+
+.cad-map__legend {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+  color: var(--gov-gray);
+  font-size: 13px;
+}
+
+.cad-map__legendItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cad-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.cad-dot.is-pend {
+  background: rgba(107, 114, 128, 0.95);
+}
+.cad-dot.is-prog {
+  background: rgba(245, 158, 11, 0.95);
+}
+.cad-dot.is-res {
+  background: rgba(34, 197, 94, 0.95);
+}
+
+.cad-dot.is-hi {
+  background: rgba(11, 92, 171, 0.9);
+}
+
+.cad-map__legendNote {
+  margin-top: 4px;
+  color: var(--gov-gray);
+  font-size: 12px;
+}
+
+.cad-map__wrap {
+  margin-top: 12px;
+  padding: 10px;
+}
+
+.cad-map__leaflet {
+  height: 520px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: radial-gradient(900px 480px at 20% 10%, rgba(11, 92, 171, 0.10), transparent 55%),
+    radial-gradient(800px 440px at 90% 30%, rgba(107, 114, 128, 0.10), transparent 58%), rgba(247, 249, 252, 1);
+}
+
+.cad-map__popupTitle {
+  font-weight: 950;
+  letter-spacing: -0.15px;
+}
+
+.cad-map__popupSub,
+.cad-map__popupFoot {
+  color: var(--gov-gray);
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.cad-map__popupRow {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+@media (max-width: 1024px) {
+  .cad-map__controls {
+    grid-template-columns: 1fr;
+  }
+  .cad-map__leaflet {
+    height: 480px;
+  }
+}
+
+/* Leaflet divIcon labels */
+.tn-district-label {
+  background: transparent;
+  border: none;
+}
+
+.tn-district-label__inner {
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(229, 231, 235, 0.9);
+  box-shadow: 0 10px 24px rgba(11, 31, 51, 0.08);
+  font-size: 12px;
+  font-weight: 850;
+  color: var(--gov-ink);
+  white-space: nowrap;
+}
+
+.tn-district-label__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: rgba(11, 92, 171, 0.12);
+  border: 1px solid rgba(11, 92, 171, 0.22);
+  color: rgba(11, 92, 171, 1);
+  font-weight: 950;
+}

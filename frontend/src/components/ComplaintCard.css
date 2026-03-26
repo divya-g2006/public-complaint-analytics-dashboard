@@ -1,0 +1,50 @@
+.cad-complaint {
+  padding: 14px;
+}
+
+.cad-complaint__top {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.cad-complaint__title {
+  font-weight: 900;
+  letter-spacing: -0.2px;
+}
+
+.cad-complaint__meta {
+  margin-top: 10px;
+  display: grid;
+  gap: 6px;
+  color: var(--gov-gray);
+  font-size: 13px;
+}
+
+.cad-k {
+  color: var(--gov-ink);
+  font-weight: 800;
+}
+
+.cad-complaint__desc {
+  margin-top: 10px;
+  color: var(--gov-ink);
+  opacity: 0.95;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.cad-complaint__imgWrap {
+  margin-top: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--gov-line);
+}
+
+.cad-complaint__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
