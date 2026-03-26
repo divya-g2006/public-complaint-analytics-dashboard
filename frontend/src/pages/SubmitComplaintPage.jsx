@@ -173,6 +173,7 @@ export default function SubmitComplaintPage() {
               <option value="School">School</option>
               <option value="Sanitation">Sanitation</option>
               <option value="Transport">Transport</option>
+              <option value="Water">Water</option>
               <option value="Housing">Housing</option>
               <option value="Environment">Environment</option>
               <option value="Health">Health</option>
